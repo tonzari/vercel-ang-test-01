@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {MatCardModule} from '@angular/material/card'; 
+
 import { InventoryService } from '../inventory.service';
 import { MusicGearItem } from '../music-gear-item';
 
